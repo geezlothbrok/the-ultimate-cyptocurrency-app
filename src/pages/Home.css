@@ -1,0 +1,28 @@
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* TARGETTING THE SEARCG INPUT */
+
+.coin-input {
+  margin-bottom: 50px;
+  margin-left: 50px;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  color: rgb(177, 175, 175);
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+}
+
+/* APPLYING NO-BORDER STYLES TO THE SEARCG BOUNDRY */
+
+input:focus {
+  outline: none !important;
+  border-color: #719ece;
+  box-shadow: 0 0 10px #719ece;
+}

@@ -1,0 +1,54 @@
+/* APPLYING GENERAL STYLES TO THE MAIN COMPONENT */
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Montserrat:ital,wght@0,400;1,300&family=Pacifico&family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* TARGETTING MAIN BODY OF THE UI */
+
+body {
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url("../public/images/image1.jpg");
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+  line-height: 2rem;
+  color: rgb(177, 175, 175);
+}
+
+/* FOR BACK TO TOP */
+
+.back-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  font-size: 30px;
+  background: orange;
+  color: white;
+  cursor: pointer;
+  border-radius: 100px;
+  border: none;
+  box-shadow: 0 5px 10px #ccc;
+  height: 50px;
+  width: 50px;
+}
+
+.back-to-top:hover {
+  background: red;
+}
+
+/* FOR ARROW ICON INSIDE BACK TO TOP */
+
+.arrow {
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+}

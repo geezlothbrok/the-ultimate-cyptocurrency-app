@@ -1,0 +1,38 @@
+.coin-symbol {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.coin-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.coin {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+}
+
+.coin-name {
+    margin-bottom: 23px;
+}
+
+.coin-price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: #65DA3D ;
+}
